@@ -1,6 +1,6 @@
 import { getPosts } from "../../api/posts/getPosts.js";
 import { displayMessage } from "../../ui/common/displayMessage.js";
-import { renderPosts } from "../../ui/posts/renderPosts.js";
+import { renderPosts } from "../../ui/renderPosts/renderPosts.js";
 
 
 export async function displayPostsHandler() {

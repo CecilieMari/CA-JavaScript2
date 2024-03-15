@@ -8,7 +8,7 @@ function router() {
     const pathname = window.location.pathname;
 console.log(pathname);
 
-buildMenu(pathname);
+//buildMenu(pathname);
 
    
     switch(pathname){
@@ -18,16 +18,16 @@ buildMenu(pathname);
         break;
 
         case "/auth/login/":
-        case "/auth/login/login.html":
+        case "/login/index.html":
             loginFormHandler();
             break;    
 
         case "/posts":
-        case "/posts/posts.html":
+        case "/posts/index.html":
               displayPostsHandler();
         break; 
     }
-    handlers/posts/displayPostsHandler.js
+    
 }
 
  

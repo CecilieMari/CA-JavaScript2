@@ -24,7 +24,7 @@ function createPost(post) {
     title.textContent = heading;
 
     const link = document.createElement("a");
-    link.href = `/post/post.html?id=${id}`;
+    link.href = `/posts/index.html?id=${id}`;
     link.textContent = "Read More";
     link.classList.add("post-link");
 

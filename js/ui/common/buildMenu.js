@@ -1,3 +1,4 @@
+
 import { isLoggedIn } from "../../helpers/auth/isLogin.js";
 
 
@@ -16,6 +17,9 @@ export function buildMenu(path) {
     <li class="nav-item">
     <a class="nav-link disabled" aria-disabled="true"><button>Log Out</button></a>
     </li>
+    <li class="nav-item">
+       <a class="nav-link" href="auth/login/index.html">Login</a>
+    </li>
 
          `; 
 
@@ -28,7 +32,7 @@ export function buildMenu(path) {
        <a class="nav-link" href="#">Home</a>
     </li>
     <li class="nav-item">
-       <a class="nav-link" href="auth/login/login.html">Login</a>
+       <a class="nav-link" href="auth/login/index.html">Login</a>
     </li>
     <li class="nav-item">
        <a class="nav-link" href="/index.html">Register</a>

@@ -1,5 +1,5 @@
-import { postsURL } from "../../constants/api";
-import { getToken } from "../../helpers/auth/getToken";
+import { postsURL } from "../../constants/api.js";
+import { getToken } from "../../helpers/auth/getToken.js";
 
 export async function getPosts() {
     const token = getToken();
