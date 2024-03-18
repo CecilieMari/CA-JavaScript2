@@ -1,7 +1,7 @@
 import { registerFormHandler } from "./handlers/auth/registerFormHandler.js";
 import { loginFormHandler } from "../js/handlers/auth/loginFromHandler.js";
 import { displayPostsHandler } from "../js/handlers/posts/displayPostsHandler.js";
-import { buildMenu } from "./ui/common/buildMenu.js"; 
+//import { buildMenu } from "./ui/common/buildMenu.js"; 
 
 
 function router() {
